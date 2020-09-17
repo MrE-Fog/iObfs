@@ -1,11 +1,17 @@
 ## iObfs
 
-[![Build Status](https://travis-ci.org/mtigas/iObfs.svg?branch=master)](https://travis-ci.org/mtigas/iObfs)  
 &copy; 2016 [Mike Tigas][miketigas] ([@mtigas](https://twitter.com/mtigas))  
 [BSD 2-clause License][license]
 
 iObfs is an iOS build of [obfs4proxy][obfs4] ([alternate repo link][obfs4-alt])
 for use inside Tor apps, such as [Onion Browser][onion-browser] and [iCepa][icepa].
+
+
+---
+
+**UNMAINTAINED / SUPERSEDED** as of September 2020. [tladesignz/IpTProxy](https://github.com/tladesignz/IPtProxy) replaces this library; it is functionally equivalent, contains the latest obfs4proxy, and also contains the new Snowflake pluggable transport.
+
+---
 
 obfs4proxy is a [pluggable transport][pt] for [Tor][tor], which can allow users to defeat certain types of network censorship. (Read some great information about pluggable transports — and how they work — [here][pt1] and [here][pt2].)
 
